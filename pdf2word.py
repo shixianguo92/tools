@@ -59,8 +59,8 @@ def pdf_to_word_tabula(pdf_path, word_path=None):
     print(f"PDF file '{pdf_path}' successfully converted to Word document '{word_path}'.")
 
 # 使用示例
-pdf_to_word_tabula('《奇妙的想象》教学设计——吕玲.pdf', '《奇妙的想象》教学设计.docx')
+pdf_to_word_tabula('input.pdf', 'output.docx')
 
 
 # 使用示例
-#pdf_to_word('《奇妙的想象》教学设计——吕玲.pdf')
+#pdf_to_word('《奇妙的想象》教学设计.pdf')
